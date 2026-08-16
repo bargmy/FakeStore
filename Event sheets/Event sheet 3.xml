@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="982244874933409">
+            <conditions>
+                <condition id="17" name="On tap object" sid="773658594083755" type="Touch">
+                    <param id="0" name="Object">image0ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="171358181567721" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;first&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="181853341947857">
+            <conditions>
+                <condition id="-26" name="On canvas snapshot" sid="573423874665000" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Load image from URL" sid="455073779660542" type="Sprite4">
+                    <param id="0" name="URI">CanvasSnapshot</param>
+                    <param id="1" name="Size">1</param>
+                    <param id="2" name="Cross-origin">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="167752584665709">
+            <conditions>
+                <condition id="10" name="On image URL loaded" sid="916181612653479" type="Sprite4" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="801401903206277" type="Sprite4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Anchor" id="0" name="Set enabled" sid="833392623404430" type="Sprite4">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="878147285753567" type="Sprite4" />
+                <action id="-15" name="Set visible" sid="838083857216795" type="Layer3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="900891925686947" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="681698088186557" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="955796529038097" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="603278659554967" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="188026149181640" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="663640690939892" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="746343528985492" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="173561914375155" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="678723878548553" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="241377031805305" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="902763387002566" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="665083200143467" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="995074150130544" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="778336741220144" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="880377613990092" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="881708269808122" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="337698050390694" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="473090854844395" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="550917625703785" type="System">
+                    <param id="0" name="Layout">towhere</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="247494255106954">
+            <conditions>
+                <condition id="0" name="On function" sid="394653826298486" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-27" name="Snapshot canvas" sid="192736748814920" type="System">
+                    <param id="0" name="Format">0</param>
+                    <param id="1" name="JPEG quality">75</param>
+                </action>
+                <action id="-9" name="Set value" sid="385483684366850" type="System">
+                    <param id="0" name="Variable">towhere</param>
+                    <param id="1" name="Value">Function.Param(0)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="888723281701764">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="343958212315213" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="712685250140846" type="Sprite4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="899529215097474">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="719389772096343" type="Touch">
+                    <param id="0" name="Object">image0ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="671087485332487" type="image0ezgifcomwebptopngconverter">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="726711538817231">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="487244343497338" type="Touch">
+                    <param id="0" name="Object">image0ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="357772678124327" type="image0ezgifcomwebptopngconverter">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

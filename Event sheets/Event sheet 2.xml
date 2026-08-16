@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="456826981545965">
+            <conditions>
+                <condition id="17" name="On tap object" sid="849061361716682" type="Touch">
+                    <param id="0" name="Object">image0ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="904480479915104" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;first&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="241330034162320">
+            <conditions>
+                <condition id="-26" name="On canvas snapshot" sid="841599698443683" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Load image from URL" sid="272719996898816" type="Sprite4">
+                    <param id="0" name="URI">CanvasSnapshot</param>
+                    <param id="1" name="Size">1</param>
+                    <param id="2" name="Cross-origin">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="880163778391078">
+            <conditions>
+                <condition id="10" name="On image URL loaded" sid="264719526925639" type="Sprite4" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="781505332638956" type="Sprite4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="169082476179600" type="Sprite4" />
+                <action behavior="Anchor" id="0" name="Set enabled" sid="482360881383454" type="Sprite4">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="113497586287651" type="Layer2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="430858201706512" type="Layer4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="199441895831563" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="839964322064673" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="502726104793128" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="179419799341865" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="755791472403134" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="360851207802116" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="845269020011318" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="491401860358270" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="603811674098537" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="584278224469659" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="244629325257212" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="498643969798946" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="223930993829852" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="572553688727306" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="335983987913393" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="952381765988742" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-17" name="Move forward" sid="287971773982101" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="755417111542000" type="System">
+                    <param id="0" name="Layout">towhere</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="158189001556492">
+            <conditions>
+                <condition id="0" name="On function" sid="257916675330733" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-27" name="Snapshot canvas" sid="551803223668796" type="System">
+                    <param id="0" name="Format">0</param>
+                    <param id="1" name="JPEG quality">75</param>
+                </action>
+                <action id="-9" name="Set value" sid="992121494742437" type="System">
+                    <param id="0" name="Variable">towhere</param>
+                    <param id="1" name="Value">Function.Param(0)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="632915679310483">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="878766281087756" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="748081235542767" type="Sprite4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <comment></comment>
+        <event-block sid="211264536639240">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="600850021810417" type="Touch">
+                    <param id="0" name="Object">image0ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="248621146326323" type="image0ezgifcomwebptopngconverter">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="680836304742806">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="469715152408294" type="Touch">
+                    <param id="0" name="Object">image0ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="816684564862671" type="image0ezgifcomwebptopngconverter">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="808678088594191">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="899137349955435" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="934388695735625" type="Layer4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="556631343379315" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="613168517957182">
+            <conditions>
+                <condition id="17" name="On tap object" sid="136825811474982" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="789142829472781" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;Appinfo&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="732473471814880" type="System">
+                    <param id="0" name="Variable">AppName</param>
+                    <param id="1" name="Value">tokenat(Sprite6.Info, 0, &quot;|&quot;)</param>
+                </action>
+                <action id="-9" name="Set value" sid="230328977273967" type="System">
+                    <param id="0" name="Variable">AppURL</param>
+                    <param id="1" name="Value">tokenat(Sprite6.Info, 1, &quot;|&quot;)&amp;&quot;|&quot;&amp;tokenat(Sprite6.Info, 2, &quot;|&quot;)</param>
+                </action>
+                <action id="-9" name="Set value" sid="243075939854127" type="System">
+                    <param id="0" name="Variable">ALL</param>
+                    <param id="1" name="Value">Sprite6.Info</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="388564399379961">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="148361590989492" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="294292979281044" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="285780891940788" type="Sprite6">
+                    <param id="0" name="Opacity">80</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="699938900862191">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="911403977707845" type="Touch">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="178632332868617" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="128020221172570" type="Sprite6">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="741973518453952">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="255745840411632" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="105040538842109" type="Sprite6">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="576420195593659" type="Sprite8">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="751598324842528" type="Sprite7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="500200979966531" type="AppTile">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Post to URL" sid="821575018427423" type="AJAX">
+                    <param id="0" name="Tag">&quot;AppList&quot;</param>
+                    <param id="1" name="URL">&quot;http://hienob.bargmy.ir/store/appslist.txt&quot;</param>
+                    <param id="2" name="Data">&quot;&quot;</param>
+                    <param id="3" name="Method">&quot;GET&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="530866870202484">
+            <conditions>
+                <condition id="0" name="On completed" sid="935200873547189" type="AJAX">
+                    <param id="0" name="Tag">&quot;AppList&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="642204673305062" type="Layer4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="572016599007235" type="Layer4" />
+            </actions>
+            <sub-events>
+                <event-block sid="653898453404210">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="717456416310469" type="System">
+                            <param id="0" name="Count">tokencount(AJAX.LastData, &quot;uwu69&quot;)</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="413376837586750">
+                            <conditions>
+                                <condition id="-33" name="Pick by comparison" sid="484978479035547" type="System">
+                                    <param id="0" name="Object">Sprite6</param>
+                                    <param id="1" name="Expression">Sprite6.ID</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">loopindex</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="308903797847539" type="Sprite6">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="595381587440197" type="Sprite6">
+                                    <param id="0" name="Instance variable">Info</param>
+                                    <param id="1" name="Value">tokenat(AJAX.LastData, loopindex, &quot;uwu69&quot;)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="878920695141870">
+                            <conditions>
+                                <condition id="-33" name="Pick by comparison" sid="472947190906068" type="System">
+                                    <param id="0" name="Object">Text</param>
+                                    <param id="1" name="Expression">Text.ID</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">69</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="395168387417065" type="Text">
+                                    <param id="0" name="Text">tokencount(AJAX.LastData, &quot;uwu69&quot;)&amp;&quot; apps&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="294697495880986">
+                            <conditions>
+                                <condition id="-33" name="Pick by comparison" sid="867985848137842" type="System">
+                                    <param id="0" name="Object">Sprite8</param>
+                                    <param id="1" name="Expression">Sprite8.ID</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">loopindex</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="267660385353983" type="Sprite8">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="933985663246021">
+                            <conditions>
+                                <condition id="-33" name="Pick by comparison" sid="476530970062935" type="System">
+                                    <param id="0" name="Object">Sprite7</param>
+                                    <param id="1" name="Expression">Sprite7.ID</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">loopindex</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="773876877596901" type="Sprite7">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="978928575705170" type="Sprite7">
+                                    <param id="0" name="Frame number">loopindex</param>
+                                </action>
+                                <action id="10" name="Load image from URL" sid="467329646015591" type="Sprite7">
+                                    <param id="0" name="URI">tokenat(tokenat(AJAX.LastData, loopindex, &quot;uwu69&quot;), 1, &quot;|&quot;)</param>
+                                    <param id="1" name="Size">1</param>
+                                    <param id="2" name="Cross-origin">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="157675785825450">
+                            <conditions>
+                                <condition id="-33" name="Pick by comparison" sid="524793577471038" type="System">
+                                    <param id="0" name="Object">AppTile</param>
+                                    <param id="1" name="Expression">AppTile.ID</param>
+                                    <param id="2" name="Comparison">0</param>
+                                    <param id="3" name="Value">loopindex</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="957042750850570" type="AppTile">
+                                    <param id="0" name="Text">tokenat(tokenat(AJAX.LastData, loopindex, &quot;uwu69&quot;), 0, &quot;|&quot;)</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="426434407123565" type="AppTile">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="11" name="Set live tile text" sid="370326228723636" type="WindowsStore">
+                                    <param id="0" name="Template">1</param>
+                                    <param id="1" name="Text 1">tokenat(tokenat(AJAX.LastData, loopindex, &quot;uwu69&quot;), 0, &quot;|&quot;)</param>
+                                    <param id="2" name="Text 2">&quot;Install Apps!&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="260780908849968">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="273952213151007" type="System">
+                    <param id="0" name="Interval (seconds)">5.0</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="976241517944202">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="390676326548624" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="782534915718968" type="Sprite7">
+                    <param id="0" name="Width">25</param>
+                    <param id="1" name="Height">25</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

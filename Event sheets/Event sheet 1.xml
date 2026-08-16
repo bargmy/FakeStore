@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="towhere" sid="236954907814198" static="0" type="text"></variable>
+        <event-block sid="855995009052891">
+            <conditions>
+                <condition id="17" name="On tap object" sid="327076809159518" type="Touch">
+                    <param id="0" name="Object">image01ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="140665140416826" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;topfree&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="400303617304537">
+            <conditions>
+                <condition id="17" name="On tap object" sid="757210420466798" type="Touch">
+                    <param id="0" name="Object">image03ezgifcomwebptopngconverter</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="198235005578004" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;pussy&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="419208145798966">
+            <conditions>
+                <condition id="-26" name="On canvas snapshot" sid="980159795336498" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Load image from URL" sid="932479705527285" type="Sprite4">
+                    <param id="0" name="URI">CanvasSnapshot</param>
+                    <param id="1" name="Size">1</param>
+                    <param id="2" name="Cross-origin">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="895761462151315">
+            <conditions>
+                <condition id="10" name="On image URL loaded" sid="563120795376105" type="Sprite4" />
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="1" name="Start fade" sid="435991226441415" type="Sprite4" />
+                <action id="-15" name="Set visible" sid="599635831299248" type="Sprite4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="574593002541455" type="Layer">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Anchor" id="0" name="Set enabled" sid="330295822224016" type="Sprite4">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="674188021659356" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="861868145433367" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="426397842449617" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="472529782405563" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="429837051462106" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="625296170995222" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="736579421690765" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="114194180464831" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="109039485771354" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="414923224516962" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="441417257862647" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="987243517585499" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="915756871523038" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="780133410825107" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="426397146336057" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="776440169124837" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-16" name="Wait" sid="656982975028063" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-17" name="Move forward" sid="423578980525220" type="Sprite4">
+                    <param id="0" name="Distance">-10</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="199888468462686" type="System">
+                    <param id="0" name="Layout">towhere</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="849656767613288">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="957339730568998" type="Touch">
+                    <param id="0" name="Object">image01ezgifcomwebptopngconverter</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="537920368595424" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="396531958880601" type="image01ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="686454192540049" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="216754408577711" type="image01ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="368765595861784">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="815229799574345" type="Touch">
+                    <param id="0" name="Object">image01ezgifcomwebptopngconverter</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="897131852708107" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="732113239662892" type="image01ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="324851481173818" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="663284557341346" type="image01ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="615106664991532">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="337052798035864" type="Touch">
+                    <param id="0" name="Object">image03ezgifcomwebptopngconverter</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="213553594082800" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="272280032974816" type="image03ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="358195312074407" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="815264725190635" type="image03ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="397469387545840">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="129404905134560" type="Touch">
+                    <param id="0" name="Object">image03ezgifcomwebptopngconverter</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="745670948082984" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="502452583903573" type="image03ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="809865493776771" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="121027830986008" type="image03ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="948104400159146">
+            <conditions>
+                <condition id="0" name="On function" sid="843685550771713" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-27" name="Snapshot canvas" sid="753572264856625" type="System">
+                    <param id="0" name="Format">0</param>
+                    <param id="1" name="JPEG quality">75</param>
+                </action>
+                <action id="-9" name="Set value" sid="719853607469365" type="System">
+                    <param id="0" name="Variable">towhere</param>
+                    <param id="1" name="Value">Function.Param(0)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="127795168917130">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="148556828114994" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="166138641963201" type="Sprite4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="504925528746331">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="704159186801174" type="Touch">
+                    <param id="0" name="Object">image02ezgifcomwebptopngconverter</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="546382478059114" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="370125597756266" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="476965779644475" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="817586548214124" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="569653635609691" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="986930581649522" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="904178035860391" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="370113460404627" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="203197814586787">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="288069732665463" type="Touch">
+                    <param id="0" name="Object">image02ezgifcomwebptopngconverter</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="661010103376654" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="341787141625700" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="806590478476788" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="132424663086467" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="983497222593273" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="546709772451884" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="265095285980902" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="843494378538577" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="250848072328802">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="662633393275639" type="Touch">
+                    <param id="0" name="Object">Sprite11</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="781287530973608" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="460392933634140" type="Sprite11">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="952684266112157" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="584650357177359" type="Sprite11">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="597179660717076" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="607257703653280" type="Sprite11">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+                <action id="-16" name="Wait" sid="437014479523662" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="995196250640384" type="Sprite11">
+                    <param id="0" name="Width">Self.Width-1</param>
+                    <param id="1" name="Height">Self.Height-1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="145375264306124">
+            <conditions>
+                <condition id="4" inverted="1" name="Is touching object" sid="690767696155272" type="Touch">
+                    <param id="0" name="Object">Sprite11</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="150662535033209" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="593388815946063" type="Sprite11">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="207453336356206" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="163706247667232" type="Sprite11">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="635780880220338" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="196466832456204" type="Sprite11">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+                <action id="-16" name="Wait" sid="239478932222953" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-7" name="Set size" sid="329691693916149" type="Sprite11">
+                    <param id="0" name="Width">Self.Width+1</param>
+                    <param id="1" name="Height">Self.Height+1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="398215664429939">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="520641826107848" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="967578712828336" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action behavior="Anchor" id="0" name="Set enabled" sid="229318139304566" type="image02ezgifcomwebptopngconverter">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Anchor" id="0" name="Set enabled" sid="761464633523932" type="image01ezgifcomwebptopngconverter">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Anchor" id="0" name="Set enabled" sid="222201093168590" type="image03ezgifcomwebptopngconverter">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action behavior="Anchor" id="0" name="Set enabled" sid="914836290759872" type="Sprite11">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="648882662686497">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="302295021265847" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Post to URL" sid="775722525534867" type="AJAX">
+                    <param id="0" name="Tag">&quot;UR&quot;</param>
+                    <param id="1" name="URL">&quot;http://hienob.bargmy.ir/store/amg.txt&quot;</param>
+                    <param id="2" name="Data">&quot;&quot;</param>
+                    <param id="3" name="Method">&quot;GET&quot;</param>
+                </action>
+                <action id="2" name="Post to URL" sid="701277454561563" type="AJAX">
+                    <param id="0" name="Tag">&quot;URP&quot;</param>
+                    <param id="1" name="URL">&quot;http://hienob.bargmy.ir/store/de.txt&quot;</param>
+                    <param id="2" name="Data">&quot;&quot;</param>
+                    <param id="3" name="Method">&quot;GET&quot;</param>
+                </action>
+                <action id="2" name="Post to URL" sid="307978722766559" type="AJAX">
+                    <param id="0" name="Tag">&quot;URPT&quot;</param>
+                    <param id="1" name="URL">&quot;http://hienob.bargmy.ir/store/spotlight.txt&quot;</param>
+                    <param id="2" name="Data">&quot;&quot;</param>
+                    <param id="3" name="Method">&quot;GET&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="956357791875654">
+            <conditions>
+                <condition id="0" name="On completed" sid="613068434383279" type="AJAX">
+                    <param id="0" name="Tag">&quot;UR&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="717051364464780">
+                    <conditions>
+                        <condition id="-33" name="Pick by comparison" sid="864029921026016" type="System">
+                            <param id="0" name="Object">Text</param>
+                            <param id="1" name="Expression">Text.ID</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">504</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="787502896116996" type="Text">
+                            <param id="0" name="Text">AJAX.LastData</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="190297457413286">
+            <conditions>
+                <condition id="0" name="On completed" sid="826991829991548" type="AJAX">
+                    <param id="0" name="Tag">&quot;URP&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set live tile text" sid="100206193828206" type="WindowsStore">
+                    <param id="0" name="Template">3</param>
+                    <param id="1" name="Text 1">AJAX.LastData</param>
+                    <param id="2" name="Text 2">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="620198724451994">
+            <conditions>
+                <condition id="0" name="On completed" sid="725365367371612" type="AJAX">
+                    <param id="0" name="Tag">&quot;URPT&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="509507019908576" type="Sprite11">
+                    <param id="0" name="Instance variable">info</param>
+                    <param id="1" name="Value">AJAX.LastData</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="340322253594191">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="685098697897319" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Load image from URL" sid="204662914032751" type="Sprite11">
+                    <param id="0" name="URI">&quot;http://hienob.bargmy.ir/store/clubpenguin.png&quot;</param>
+                    <param id="1" name="Size">1</param>
+                    <param id="2" name="Cross-origin">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="886880184707953">
+            <conditions>
+                <condition id="17" name="On tap object" sid="107968487016396" type="Touch">
+                    <param id="0" name="Object">Sprite11</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="643901292463892" type="Sprite11">
+                    <param id="0" name="Instance variable">info</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">&quot;&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="598342125019053" type="Function">
+                    <param id="0" name="Name">&quot;goaway&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;Appinfo&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="893888279938348" type="System">
+                    <param id="0" name="Variable">AppName</param>
+                    <param id="1" name="Value">tokenat(Sprite11.Info, 0, &quot;|&quot;)</param>
+                </action>
+                <action id="-9" name="Set value" sid="357773929213872" type="System">
+                    <param id="0" name="Variable">AppURL</param>
+                    <param id="1" name="Value">tokenat(Sprite11.Info, 1, &quot;|&quot;)&amp;&quot;|&quot;&amp;tokenat(Sprite11.Info, 2, &quot;|&quot;)</param>
+                </action>
+                <action id="-9" name="Set value" sid="481751014734916" type="System">
+                    <param id="0" name="Variable">ALL</param>
+                    <param id="1" name="Value">Sprite11.Info</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

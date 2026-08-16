@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>FakeStore</name>
+    <description>Store</description>
+    <version>1.0.0.7</version>
+    <author>bargmy</author>
+    <author-email>support@bargmy.ir</author-email>
+    <author-website>https://bargmy.ir</author-website>
+    <app-id>store.bargmy.ir</app-id>
+    <unique-id>30s1vc4xpuxoe</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="List" version="1">List</plugin>
+        <plugin author="Rex.Rainbow" id="Rex_LayerObj" version="0.100000001">Layer</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows Store</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>794</width>
+        <height>447</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Scale outer</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Nothing (not recommended)</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">NW.js</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="937390995967037">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="517403709712163" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501119" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="886795639656770">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="ID" sid="504865620249263" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Anchor" sid="616151159858107">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite4" sid="499611488853244">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="922642081248155">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Anchor" sid="358103037515654">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792484142416216" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="480194111483434">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="topfree" sid="361999658915173">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538652112767065" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="none" pingpong="0" repeatcount="1" repeatto="0" sid="124871122727160" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="7" loop="0" name="nothold" pingpong="0" repeatcount="1" repeatto="0" sid="104896880991986" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="image02ezgifcomwebptopngconverter" sid="971528599560675">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="766779530323872">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="245452008227547" speed="5">
+                    <frame duration="1" hotspotX="0.501493" hotspotY="0.470703" original-source="C:\Downloads\image02-ezgif.com-webp-to-png-converter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="image01ezgifcomwebptopngconverter" sid="972646495847934">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="840649406388723">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="345375793988574" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Downloads\image01-ezgif.com-webp-to-png-converter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="image03ezgifcomwebptopngconverter" sid="728354764066083">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="393452694514564">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="339359552283743" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Downloads\image03-ezgif.com-webp-to-png-converter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="465790949449041">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Fade" sid="316997157819584">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Function" sid="227788385901432">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="image0ezgifcomwebptopngconverter" sid="345850594589902">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="292612773393458">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273775604711844" speed="5">
+                    <frame duration="1" hotspotX="21.6341" hotspotY="13.5122" original-source="C:\Downloads\image0-ezgif.com-webp-to-png-converter.png" />
+                    <frame duration="1" hotspotX="21.6341" hotspotY="13.5122" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="505581625119582">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780648087069633" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Layer" sid="404633710658557">
+            <plugin id="Rex_LayerObj" />
+            <behaviors>
+                <behavior-type name="Fade" sid="267343265031501">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Layer2" sid="440515680855567">
+            <plugin id="Rex_LayerObj" />
+            <behaviors>
+                <behavior-type name="Fade" sid="268455038149576">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Layer3" sid="659904224971610">
+            <plugin id="Rex_LayerObj" />
+            <behaviors>
+                <behavior-type name="Fade" sid="545969281967564">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite3" sid="710841876179527">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341392217801203" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501119" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="462896038635788">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244075056824964" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501119" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="903941668594243">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ID" sid="123434298405448" type="number" />
+                <instance-variable name="Info" sid="204518010100377" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Anchor" sid="306024561917165">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="129033993364658" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AppTile" sid="985732849805562">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="ID" sid="989015811857724" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Anchor" sid="482763826280533">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite7" sid="478720227819129">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ID" sid="430303082278584" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Anchor" sid="976345730520357">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="25" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415492665775135" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="6" loop="0" name="a" pingpong="0" repeatcount="1" repeatto="0" sid="478489961776839" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Layer4" sid="611328101620240">
+            <plugin id="Rex_LayerObj" />
+            <behaviors>
+                <behavior-type name="Fade" sid="972077394765780">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite8" sid="677699260924436">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ID" sid="403097726103379" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Anchor" sid="360609781339380">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411106491542926" speed="5">
+                    <frame duration="1" hotspotX="0.525253" hotspotY="0.55" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="949853863719113">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="251000214277042" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Layer5" sid="870267739722867">
+            <plugin id="Rex_LayerObj" />
+            <behaviors>
+                <behavior-type name="Fade" sid="257114823971582">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="Sprite10" sid="513866440076109">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349785175498571" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="935387334184030">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="info" sid="913645949610252" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Anchor" sid="222720646296108">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769235523108051" speed="5">
+                    <frame duration="1" hotspotX="0.501493" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="118912856165680">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="AJAX" sid="451919778783650">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="WindowsStore" sid="303326351757333">
+            <plugin id="win8" />
+        </object-type>
+        <object-type name="Sprite12" sid="298665306660169">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449121840166176" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.53125" />
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.53125" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="List" sid="329614718075913">
+            <plugin id="List" />
+        </object-type>
+        <object-type name="Sprite13" sid="682517599201646">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114799546341261" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="166184823783794">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="763559268063088">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282950098038002" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>first.xml</layout>
+        <layout>topfree.xml</layout>
+        <layout>pussy.xml</layout>
+        <layout>Appinfo.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="6">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="10" />
+        <global-instance type="AJAX" uid="46" />
+        <global-instance type="WindowsStore" uid="47">
+            <properties>
+                <test-mode>No</test-mode>
+                <about-setting>Yes</about-setting>
+                <support-setting>Yes</support-setting>
+                <privacy-setting>Yes</privacy-setting>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
